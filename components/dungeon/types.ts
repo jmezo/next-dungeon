@@ -39,3 +39,16 @@ export type Creature = {
   health: number;
   size: number;
 };
+
+export type HeroAttributes = {
+  attack: number;
+  defense: number;
+  hitpoints: number;
+};
+
+export type Hero = {
+  attr: HeroAttributes;
+  name: string;
+  isAlive: boolean;
+  xp: number;
+};
